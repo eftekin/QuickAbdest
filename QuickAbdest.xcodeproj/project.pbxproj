@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D6C486F29E68E4D0014769E /* QuickAbdestRemastered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickAbdestRemastered.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6C486F29E68E4D0014769E /* QuickAbdest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickAbdest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6C487229E68E4D0014769E /* QuickAbdestRemasteredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAbdestRemasteredApp.swift; sourceTree = "<group>"; };
 		8D6C487429E68E4D0014769E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D6C487629E68E4E0014769E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		8D6C487029E68E4D0014769E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D6C486F29E68E4D0014769E /* QuickAbdestRemastered.app */,
+				8D6C486F29E68E4D0014769E /* QuickAbdest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D6C486E29E68E4D0014769E /* QuickAbdestRemastered */ = {
+		8D6C486E29E68E4D0014769E /* QuickAbdest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D6C487D29E68E4E0014769E /* Build configuration list for PBXNativeTarget "QuickAbdestRemastered" */;
+			buildConfigurationList = 8D6C487D29E68E4E0014769E /* Build configuration list for PBXNativeTarget "QuickAbdest" */;
 			buildPhases = (
 				8D6C486B29E68E4D0014769E /* Sources */,
 				8D6C486C29E68E4D0014769E /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = QuickAbdestRemastered;
+			name = QuickAbdest;
 			productName = QuickAbdestRemastered;
-			productReference = 8D6C486F29E68E4D0014769E /* QuickAbdestRemastered.app */;
+			productReference = 8D6C486F29E68E4D0014769E /* QuickAbdest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8D6C486A29E68E4D0014769E /* Build configuration list for PBXProject "QuickAbdestRemastered" */;
+			buildConfigurationList = 8D6C486A29E68E4D0014769E /* Build configuration list for PBXProject "QuickAbdest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D6C486E29E68E4D0014769E /* QuickAbdestRemastered */,
+				8D6C486E29E68E4D0014769E /* QuickAbdest */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +281,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuickAbdestRemastered/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Qıick Abdest";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -310,6 +311,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuickAbdestRemastered/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Qıick Abdest";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -330,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D6C486A29E68E4D0014769E /* Build configuration list for PBXProject "QuickAbdestRemastered" */ = {
+		8D6C486A29E68E4D0014769E /* Build configuration list for PBXProject "QuickAbdest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D6C487B29E68E4E0014769E /* Debug */,
@@ -339,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D6C487D29E68E4E0014769E /* Build configuration list for PBXNativeTarget "QuickAbdestRemastered" */ = {
+		8D6C487D29E68E4E0014769E /* Build configuration list for PBXNativeTarget "QuickAbdest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D6C487E29E68E4E0014769E /* Debug */,
