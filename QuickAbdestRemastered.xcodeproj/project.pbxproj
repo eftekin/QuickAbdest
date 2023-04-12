@@ -11,6 +11,8 @@
 		8D6C487529E68E4D0014769E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C487429E68E4D0014769E /* ContentView.swift */; };
 		8D6C487729E68E4E0014769E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6C487629E68E4E0014769E /* Assets.xcassets */; };
 		8D6C487A29E68E4E0014769E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6C487929E68E4E0014769E /* Preview Assets.xcassets */; };
+		8D6C488529E68E750014769E /* soundeffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D6C488229E68E750014769E /* soundeffect.mp3 */; };
+		8D6C488729E69BB00014769E /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C488629E69BB00014769E /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		8D6C487429E68E4D0014769E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D6C487629E68E4E0014769E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D6C487929E68E4E0014769E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D6C488229E68E750014769E /* soundeffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundeffect.mp3; sourceTree = "<group>"; };
+		8D6C488629E69BB00014769E /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		8D6C488829E69C350014769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +56,11 @@
 		8D6C487129E68E4D0014769E /* QuickAbdestRemastered */ = {
 			isa = PBXGroup;
 			children = (
+				8D6C488829E69C350014769E /* Info.plist */,
 				8D6C487229E68E4D0014769E /* QuickAbdestRemasteredApp.swift */,
 				8D6C487429E68E4D0014769E /* ContentView.swift */,
 				8D6C487629E68E4E0014769E /* Assets.xcassets */,
+				8D6C488629E69BB00014769E /* LaunchScreen.swift */,
 				8D6C487829E68E4E0014769E /* Preview Content */,
 			);
 			path = QuickAbdestRemastered;
@@ -62,6 +69,7 @@
 		8D6C487829E68E4E0014769E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				8D6C488229E68E750014769E /* soundeffect.mp3 */,
 				8D6C487929E68E4E0014769E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6C488529E68E750014769E /* soundeffect.mp3 in Resources */,
 				8D6C487A29E68E4E0014769E /* Preview Assets.xcassets in Resources */,
 				8D6C487729E68E4E0014769E /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +148,7 @@
 			files = (
 				8D6C487529E68E4D0014769E /* ContentView.swift in Sources */,
 				8D6C487329E68E4D0014769E /* QuickAbdestRemasteredApp.swift in Sources */,
+				8D6C488729E69BB00014769E /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +280,9 @@
 				DEVELOPMENT_TEAM = 724PFSU789;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickAbdestRemastered/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +309,9 @@
 				DEVELOPMENT_TEAM = 724PFSU789;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickAbdestRemastered/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
