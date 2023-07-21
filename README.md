@@ -1,7 +1,7 @@
 
 # QuickAbdest iOS App
 
-This is the GitHub repository for the fun, unofficial iOS app of QuickAbdest (https://quickabdest.com). The app is designed to guide users through a quick and easy ritual washing (ablution) process.
+This is the GitHub repository for the fun, unofficial iOS app of [QuickAbdest](https://quickabdest.com). The app is designed to guide users through a quick and easy ritual washing (ablution) process.
 
 ## ScreenShots
 
